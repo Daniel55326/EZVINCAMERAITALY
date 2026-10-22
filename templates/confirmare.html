@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1c1c1e" />
+  <title>Conferma</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #1c1c1e;
+      color: #f5f5f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .box {
+      width: 100%;
+      max-width: 410px;
+      background: #2b2b2e;
+      border: 1px solid #48484d;
+      border-radius: 20px;
+      padding: 36px 24px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #35c659;
+      margin-bottom: 14px;
+      letter-spacing: -0.5px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #c6c6cc;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      width: 100%;
+      min-height: 52px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: none;
+      font-size: 16px;
+      font-weight: 600;
+      background: #7da2ff;
+      color: #15171c;
+      cursor: pointer;
+      transition: opacity 0.2s ease, transform 0.15s;
+    }
+
+    .btn:hover {
+      opacity: 0.92;
+    }
+
+    .btn:active {
+      transform: scale(0.99);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Grazie per la conferma!</h1>
+    <p>I dati sono stati inviati con successo.</p>
+
+    <button class="btn" onclick="window.location.href='/'">
+      Torna all'accesso
+    </button>
+  </div>
+</body>
+</html>
